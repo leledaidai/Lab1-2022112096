@@ -85,7 +85,7 @@ public class WordGraphExperiment {
     }
 }
 
-
+//git test
 //add for git test
 class WordGraph {
     // adjacency: 出边 map，key = 源词，value = map(目标词 -> 权重)
