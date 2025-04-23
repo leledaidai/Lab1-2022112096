@@ -4,7 +4,7 @@ import java.util.*;
 
 //javac -encoding UTF-8 WordGraphExperiment.java
 //java -cp . WordGraphExperiment EasyTest.txt
-
+//add for git test
 public class WordGraphExperiment {
     public static void main(String[] args) {
         if (args.length < 1) {
@@ -85,6 +85,8 @@ public class WordGraphExperiment {
     }
 }
 
+
+//add for git test
 class WordGraph {
     // adjacency: 出边 map，key = 源词，value = map(目标词 -> 权重)
     private Map<String, Map<String, Integer>> adj = new HashMap<>();
@@ -95,7 +97,7 @@ class WordGraph {
         List<String> lines = Files.readAllLines(Paths.get(filename));
         List<String> words = new ArrayList<>();
         for (String line : lines) {
-            // 提取 A-Z a-z 单词
+            // 处理每一行，提取单词
             String[] ws = line.toLowerCase().split("[^a-z]+");
             for (String w : ws) {
                 if (!w.isEmpty())
