@@ -1,1 +1,3 @@
 to explore strange new worlds.to seek out new life and new civilizations
+//add for git test
+//delete this two line for use
